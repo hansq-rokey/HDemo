@@ -44,7 +44,11 @@ public class SsssCityMerchantAction {
 	}
 	
 	/**
-	 * 验证码测试
+	 * @Description:短信验证码测试
+	 * @param request
+	 * @param code void
+	 * @author hansq
+	 * @date 2017-4-28 下午5:09:34
 	 */
 	@RequestMapping("/send")
 	public void sendMessage(HttpServletRequest request,String code){
