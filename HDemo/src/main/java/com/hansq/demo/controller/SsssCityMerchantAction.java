@@ -39,7 +39,7 @@ public class SsssCityMerchantAction {
 		model.addAttribute("pageInfo", pageInfo);
 		model.addAttribute("citys", citys);
 		//短信接口
-//		sendMessageProducer.send("queue.message", "hansq测试信息!");
+		sendMessageProducer.send("queue.message", "hansq测试信息!");
 		return "list";
 	}
 	
